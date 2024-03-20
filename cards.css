@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    min-height: 100vh;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border: 5px solid rgb(7, 7, 7);
+    border-radius: 10px;
+    width: 280px; 
+    height: 480px;
+    padding: 3px;
+    background-color: white;
+    backdrop-filter: blur(50px);   
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 80px
+}
+
+.card img{
+    border: 3px solid black;
+    margin-top: 75px;
+    padding: 20px;
+}
+
+.card button{
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+    font-size: x-large;
+}
+
+.card button:hover{
+    background-color: blueviolet;
+}
